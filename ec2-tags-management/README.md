@@ -55,7 +55,7 @@ EC2 정보와 Tag를 csv 파일로 추출하고, 추출한 csv 파일에서 각 
 ### Custom
 
 Inastance의 Tags[Key:Value] 수정 및 추가 시 ec2_tags_apply_aws.py에서 def read_csv_and_apply_tags 함수에서 아래 소스부분 수정
-![Alt text](../test/image.png)
+![Alt text](../ec2-tags-management/test/image.png)
 
 태그 key 변경 시 인덱스 명만 수정해주면 된다.
 
